@@ -1,12 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Panel</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div id="myform">
+        <h4>Fill the below form:</h4>
+        <label>Name:</label>
+        <input type="text" id="name"><br><br>
+        <label>Gender:</label>
+        <input type="text" id="gender"><br><br>
+        <label>Designation:</label>
+        <input type="text" id="designation"><br><br>
+        <label>Joining Date:</label>
+        <input type="date" id="date"><br><br>
+        <button id="add" value="Add">Add Data to Table</button>
+       </div>
+       <div>
+        <h4>Employee Record</b></h4>
+         <table id="tableData" cellpadding="2">
+          <tr>
+           <td><b>Name</b></td>
+           <td><b>Gender</b></td>
+           <td><b>Designation</b></td>
+           <td><b>Joining Date</b></td>
+          </tr>
+         </table>
+       </div>
+       <script src="script.js"></script>
 </body>
 </html>
