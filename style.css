@@ -1,7 +1,23 @@
-table, th, td {
+td, tr, table{
     border: 1px solid black;
 }
 
-table{
-    margin: auto;
+td{
+    padding: 2px;
+}
+
+.box{
+    padding: 10px 10px 0 0;
+    width: 45%;
+    float: right;
+}
+
+#form{
+    width: 45%;
+    padding: 10px 0 0 10px;
+    float: left;
+}
+
+.clear{
+    clear: both;
 }
